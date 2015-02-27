@@ -61,29 +61,18 @@ public class ExamplePagedDragDropGridAdapter implements PagedDragDropGridAdapter
 		super();
 		this.context = context;
 		this.gridview = gridview;
-		
 		//页面
 		Page page1 = new Page();
 		List<Item> items = new ArrayList<Item>();
 		items.add(new Item(1, "Item 1", R.drawable.ic_launcher));
 		items.add(new Item(2, "Item 2", R.drawable.ic_launcher));
 		items.add(new Item(3, "Item 3", R.drawable.ic_launcher));
-		page1.setItems(items);
-		pages.add(page1);
-		
-		Page page2 = new Page();
-		items = new ArrayList<Item>();
 		items.add(new Item(4, "Item 4", R.drawable.ic_launcher));
 		items.add(new Item(5, "Item 5", R.drawable.ic_launcher));
 		items.add(new Item(6, "Item 6", R.drawable.ic_launcher));
 		items.add(new Item(7, "Item 7", R.drawable.ic_launcher));
 		items.add(new Item(8, "Item 8", R.drawable.ic_launcher));
 		items.add(new Item(9, "Item 9", R.drawable.ic_launcher));
-		page2.setItems(items);
-		pages.add(page2);
-		
-		Page page3 = new Page();
-		items = new ArrayList<Item>();
 		items.add(new Item(10, "Item 10", R.drawable.ic_launcher));
 		items.add(new Item(11, "Item 11", R.drawable.ic_launcher));
 		items.add(new Item(12, "Item 12",R.drawable.ic_launcher));
@@ -108,27 +97,8 @@ public class ExamplePagedDragDropGridAdapter implements PagedDragDropGridAdapter
 		items.add(new Item(31, "Item 31",R.drawable.ic_launcher));
 		items.add(new Item(32, "Item 32",R.drawable.ic_launcher));
 		items.add(new Item(33, "Item 33",R.drawable.ic_launcher));
-		items.add(new Item(34, "Item 34",R.drawable.ic_launcher));
-		items.add(new Item(35, "Item 35",R.drawable.ic_launcher));
-		items.add(new Item(36, "Item 36",R.drawable.ic_launcher));
-		items.add(new Item(37, "Item 37",R.drawable.ic_launcher));
-		items.add(new Item(38, "Item 38",R.drawable.ic_launcher));
-		items.add(new Item(39, "Item 39",R.drawable.ic_launcher));
-		items.add(new Item(40, "Item 40",R.drawable.ic_launcher));
-		items.add(new Item(41, "Item 41",R.drawable.ic_launcher));
-		items.add(new Item(42, "Item 42",R.drawable.ic_launcher));
-		items.add(new Item(43, "Item 43",R.drawable.ic_launcher));
-		items.add(new Item(44, "Item 44",R.drawable.ic_launcher));
-		items.add(new Item(45, "Item 45",R.drawable.ic_launcher));
-		page3.setItems(items);
-		pages.add(page3);
-						
-		Page page4 = new Page();
-        items = new ArrayList<Item>();
-        items.add(new Item(46, "Item 46", R.drawable.ic_launcher));
-        
-        page4.setItems(items);
-        pages.add(page4);
+		page1.setItems(items);
+		pages.add(page1);
 	}
 
 	@Override
